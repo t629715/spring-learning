@@ -1,10 +1,10 @@
-package learning.spring.mvc.annotation;
+package com.learning.spring.mvc.annotation;
 
 import java.lang.annotation.*;
 
 @Target({ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface Service {
+public @interface Controller {
     String value() default "";
 }

@@ -1,10 +1,10 @@
-package learning.spring.mvc.annotation;
+package com.learning.spring.mvc.annotation;
 
 import java.lang.annotation.*;
 
-@Target({ElementType.FIELD})
+@Target({ElementType.PARAMETER})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface Autowired {
+public @interface RequestParam {
     String value() default "";
 }

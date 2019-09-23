@@ -1,4 +1,4 @@
-package learning.spring.mvc.annotation;
+package com.learning.spring.mvc.annotation;
 
 import java.lang.annotation.*;
 

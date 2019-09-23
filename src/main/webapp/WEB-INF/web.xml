@@ -4,4 +4,16 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>mvc</servlet-name>
+    <servlet-class>com.learning.spring.mvc.servlet.DispatcherServlet</servlet-class>
+    <init-param>
+      <param-name>configLocation</param-name>
+      <param-value>application.properties</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>mvc</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
 </web-app>
